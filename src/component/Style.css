@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap");
+
+* {
+  margin: 0;
+}
+.navbar {
+  width: 99.9%;
+  height: 70px;
+  display: flex;
+  background-color: darkblue;
+}
+li {
+  list-style: none;
+  margin: auto;
+  font-size: 45px;
+  font-family: "Charm", cursive;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: gray;
+  cursor: pointer;
+}
+.student-details {
+  display: flex;
+}
+.student-details-heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.btn-add-student-details {
+  width: 322px;
+  border-radius: 27px;
+  font-size: 35px;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+.studentdata {
+  width: 90%;
+  border: 1px solid white;
+  background-color: white;
+  height: 540px;
+  margin-top: 3%;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+table {
+  width: 99%;
+  font-size: 26px;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 2px solid gray;
+}
+.ashi {
+  width: 100px;
+  border: 2px solid gray;
+}
+.extra {
+  width: 99%;
+  margin-top: 130px;
+  height: 50px;
+}
+.home {
+  font-size: 20px;
+  width: 99.9%;
+  height: 90vh;
+}
+.contact {
+  height: 90vh;
+}
+.title {
+  width: 86%;
+  height: 60px;
+  margin-left: 7%;
+  display: flex;
+}
+.btnEdit {
+  margin-left: 60%;
+  width: 230px;
+  font-size: 24px;
+  border-radius: 12px;
+  height: 50px;
+}
+.table {
+  width: 86%;
+  margin-left: 7%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  min-height: 530px;
+}
+.tableEdit {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: 5%;
+}
+.name,
+.age,
+.course,
+.batch {
+  width: 500px;
+  height: 100px;
+  margin: 50px 50px 50px 75px;
+}
+input {
+  width: 480px;
+  height: 80px;
+  font-size: 24px;
+}
+label {
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.btn-both {
+  width: 90%;
+  height: 235px;
+  margin-top: 50px;
+  display: flex;
+  margin-left: 5%;
+}
+.btn-edit {
+  font-size: 35px;
+  width: 270px;
+  height: 70px;
+  margin-left: 290%;
+  background-color: white;
+  border-radius: 48px;
+}
+.btn-cancel {
+  font-size: 35px;
+  width: 270px;
+  height: 70px;
+  background-color: white;
+  margin-left: 275%;
+  border-radius: 48px;
+}
+.btn-edit:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+.btn-cancel:hover{
+  cursor: pointer;
+  background-color: gray;
+}
